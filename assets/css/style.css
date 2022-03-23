@@ -16,10 +16,17 @@ h3 {
   text-align: center;
 }
 
+ul {
+  width: 100%;
+  text-align: center;
+}
+
 li {
+  display: inline;
   list-style: none;
+  justify-content: space-between;
+  letter-spacing: 20px;
   margin-top: 20px;
-  display: block;
 }
 
 button {
@@ -52,7 +59,7 @@ select {
 }
 
 .card {
-  background-color:	#FFFFE0;
+  background-color: #ffffe0;
   border: 1px solid #eceff1;
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
@@ -70,7 +77,7 @@ select {
 }
 
 #scoreboard {
-    text-align: center;
+  text-align: center;
 }
 
 #msg {
@@ -79,4 +86,7 @@ select {
   width: 100%;
   margin-top: 10px;
   background-color: whitesmoke;
+}
+#playingField {
+  align-items: center;
 }
