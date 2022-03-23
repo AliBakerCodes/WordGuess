@@ -93,9 +93,12 @@ function storeGame() {
 
 function getGame() {
   var storedGame = JSON.parse(localStorage.getItem("game"));
-  if (game !== null) {
+  if (storedGame) {
+    console.log(game.value)
+    console.log(true)
     game = storedGame;
   } else {
+    console.log(false)
     game["dictionary"] = [
       "snake",
       "light",
